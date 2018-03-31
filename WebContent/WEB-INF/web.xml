@@ -1,0 +1,111 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<servlet>
+		<servlet-name>Accueil</servlet-name>
+		<servlet-class>com.projet.servlets.Accueil</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreationPilote</servlet-name>
+		<servlet-class>com.projet.servlets.CreationPilote</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreationTeam</servlet-name>
+		<servlet-class>com.projet.servlets.CreationTeam</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Accueil</servlet-name>
+		<url-pattern>/accueil</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreationPilote</servlet-name>
+		<url-pattern>/creationPilote</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreationTeam</servlet-name>
+		<url-pattern>/creationTeam</url-pattern>
+	</servlet-mapping>
+</web-app> -->
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<filter>
+		<filter-name>Set Character Encoding</filter-name>
+		<filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>ignore</param-name>
+			<param-value>false</param-value>
+		</init-param>
+	</filter>
+	<servlet>
+		<servlet-name>Accueil</servlet-name>
+		<servlet-class>com.projet.servlets.Accueil</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreationPilote</servlet-name>
+		<servlet-class>com.projet.servlets.CreationPilote</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreationTeam</servlet-name>
+		<servlet-class>com.projet.servlets.CreationTeam</servlet-class>
+	</servlet>
+	  <servlet>
+        <servlet-name>ListePilotes</servlet-name>
+    <servlet-class>com.projet.servlets.ListePilotes</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SuppressionPilote</servlet-name>
+        <servlet-class>com.projet.servlets.SuppressionPilote</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>ListeTeams</servlet-name>
+        <servlet-class>com.projet.servlets.ListeTeams</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SuppressionTeam</servlet-name>
+        <servlet-class>com.projet.servlets.SuppressionTeam</servlet-class>
+    </servlet> 
+
+	<servlet-mapping>
+		<servlet-name>Accueil</servlet-name>
+		<url-pattern>/accueil</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreationPilote</servlet-name>
+		<url-pattern>/creationPilote</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreationTeam</servlet-name>
+		<url-pattern>/creationTeam</url-pattern>
+	</servlet-mapping>
+	
+	   <servlet-mapping>
+        <servlet-name>ListePilotes</servlet-name>
+        <url-pattern>/listePilotes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SuppressionPilote</servlet-name>
+        <url-pattern>/suppressionPilote</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>ListeTeams</servlet-name>
+        <url-pattern>/listeTeams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SuppressionTeam</servlet-name>
+        <url-pattern>/suppressionTeam</url-pattern>
+    </servlet-mapping> 
+</web-app>
