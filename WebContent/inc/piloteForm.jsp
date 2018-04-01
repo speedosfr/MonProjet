@@ -1,13 +1,16 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
+
+<div class="row">
+<div class="lolo col-lg-4">
 	<legend>Creation Pilote</legend>
 	<div class="alert alert-warning">Tous les champs sont obligatares</div>
 
 	<div class="form-group">
 		<div class="row">
 			<label for="nomPilote">Nom </label>
-			 <input type="text" id="nomPilote" class="form-control col-lg-2" name="nomPilote"
+			 <input type="text" id="nomPilote" class="form-control col-lg-1" name="nomPilote"
 				value="<c:out value="${pilote.nom}"/>" size="20" maxlength="20" />
 		</div>
 		<span class="erreur">${form.erreurs['nomPilote']}</span>
@@ -31,5 +34,5 @@
 		</div>
 		<span class="erreur">${form.erreurs['nationalite']}</span>
 	</div>
-
+	
 	

@@ -7,10 +7,10 @@
 	<link type="text/css" rel="stylesheet" href="<c:url value="/inc/style.css"/>" />
 	</head>
 	<body>
-		<div>
+		
 	<form method="post" action="<c:url value="/creationPilote"/>">
 				<c:import url="/inc/piloteForm.jsp" />
-		</div>
+		
 		 <c:if test="${ form.chkErreur == false }"><div class="alert alert-danger" role="alert"><p >${ form.resultat }</p>
 	</div></c:if>
 		
@@ -18,5 +18,7 @@
 		<input type="submit" class="btn btn-info" value="Valider" />
 		<input type="reset" class="btn btn-warning" value="Remettre à zéro" />
 	</form>
+</div>
+</div>
 </div>
 <c:import url="/inc/footer.jsp" />

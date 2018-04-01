@@ -1,5 +1,8 @@
 body {
   padding-top: 10px;
+  background: url(img/bg.jpg) no-repeat center fixed;
+  background-size: cover; 
+    /* background-size: 100% auto;*/
 }
 /* [class*="col-"], footer {
   background-color: #d7e0fd;
@@ -63,4 +66,11 @@ form input.sansLabel {
 .info {
     font-style: italic;
     color: #E8A22B;
+}
+.lolo {
+	border : 1px solid gray;
+	background-color: rgba(5, 5, 1, 0.6);
+	color : white;
+	padding : 50px;
+
 }

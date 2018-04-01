@@ -8,6 +8,7 @@ public class Pilote {
 	
 	
 	public String getNom() {
+		
 		return nom;
 	}
 	public void setNom(String nom) {

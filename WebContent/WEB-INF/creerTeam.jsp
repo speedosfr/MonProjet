@@ -50,7 +50,7 @@
                  
                 <c:set var="pilote" value="${ team.pilote }" scope="request" />
 
-				<%-- <c:import url="/inc/piloteForm.jsp" /> --%>
+				<%-- <c:import url="/inc/piloteForm.jsp" />  --%>
 		</div>
 		<legend>Informations Equipe</legend>
 		<c:import url="/inc/teamForm.jsp" />
@@ -62,7 +62,7 @@
 </div>
 </form>
 </div>
-//<script src="<c:url value="/inc/jquery.js"/>"></script>
+<%-- <script src="<c:url value="/inc/jquery.js"/>"></script> --%>
         
         <%-- Petite fonction jQuery permettant le remplacement de la première partie du formulaire par la liste déroulante, au clic sur le bouton radio. --%>
         <script>
