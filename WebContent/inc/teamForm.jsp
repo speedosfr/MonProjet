@@ -3,6 +3,9 @@
 
 
 <div class="lolo col-lg-6 ">
+	<div class="team  col-lg-offset-3">			
+				<img src="inc/img/team.png" class="img-rounded" style="width:70%" />
+			</div>
 
 	<legend>Informations Equipe</legend>
 	<div class="form-group">

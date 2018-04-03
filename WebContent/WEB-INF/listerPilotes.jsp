@@ -25,7 +25,7 @@
 			<%-- Sinon, affichage du tableau. --%>
 			<c:otherwise>
 				
-				<table class="table table-striped">
+				<table class="table table-bordered">
 					<thead>
 						<tr>
 							<th scope="col">Nom</th>

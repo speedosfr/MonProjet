@@ -5,14 +5,19 @@ body {
     /* background-size: 100% auto;*/
 }
 
-h1 {
+h1
+ {
 	 text-align :center; 
-	color : blue;
+	color: #0568CD;
+}
+h3 {
+	color: #0568CD;
 }
 
 legend {
     font-weight: bold;
     color: #0568CD;
+    text-align : center;
 }
 
 
@@ -38,8 +43,25 @@ legend {
 	border : 5px inset #406FA4;
 	background-color: rgba(5, 5, 1, 0.6);	
 	padding : 50px;
-
+}
+.lolo,label {
+	color : White;
 }
 .helmet {
-	
+	margin-top : 25px;
+	margin-bottom : 24px;
+}
+.messageP {
+	margin-bottom : 15px;
+}
+.newPilote {
+	color: yellow ;
+	margin-left : 30% ;
+}
+.piloteRadio {
+	width : 250px ;
+	height : auto;
+	background-color: rgba(5, 5, 1, 0.6); 	
+	border : 5px inset #406FA4;
+	color : white;
 }
