@@ -8,12 +8,10 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class=" col-lg-4 col-lg-offset-3">
+			<div class="img col-lg-12 "> 
 				
 				<img src="inc/img/fia.png" />
 			</div>
 		</div>
-		
-	</div>
-	
+		</div>
 	<c:import url="/inc/footer.jsp" />

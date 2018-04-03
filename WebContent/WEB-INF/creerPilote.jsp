@@ -1,7 +1,7 @@
 <%@ page pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <c:import url="/inc/header.jsp" />
-<div class="formPilote col-lg-8 col-lg-offset-2">
+<div class="formPilote col-lg-4 ">
 	
 	<title>Création Pilote</title>
 	<link type="text/css" rel="stylesheet" href="<c:url value="/inc/style.css"/>" />
@@ -14,9 +14,10 @@
 		 <c:if test="${ form.chkErreur == false }"><div class="alert alert-danger" role="alert"><p >${ form.resultat }</p>
 	</div></c:if>
 		
-
-		<input type="submit" class="btn btn-info" value="Valider" />
-		<input type="reset" class="btn btn-warning" value="Remettre à zéro" />
+<div class="row"><div class ="bouton col-lg-2 col-lg-offset-2">
+		<input type="submit" class="btn btn-info " value="Valider" />
+		<input type="reset" class="btn btn-warning " value="Remettre à zéro" />
+</div></div>
 	</form>
 </div>
 </div>

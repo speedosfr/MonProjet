@@ -9,6 +9,14 @@
 <body>
 
 	<div class="container">
+	
+	<div class="lolo col-lg-8 col-lg-offset-2">
+	
+	<legend>Liste des Pilotes</legend>
+	<div class="team  col-lg-offset-1">			
+				<img src="inc/img/drivers.png" class="img-rounded" style="width:100%" />
+	</div>
+	
 		<c:choose>
 			<%-- Si aucun client n'existe en session, affichage d'un message par défaut. --%>
 			<c:when test="${ empty sessionScope.pilotes }">
@@ -47,6 +55,6 @@
 				</table>
 			</c:otherwise>
 		</c:choose>
-	</div>
+	</div></div>
 </body>
 </html>

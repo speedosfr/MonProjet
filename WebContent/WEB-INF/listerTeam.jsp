@@ -8,6 +8,11 @@
 <body>
 
 	<div id="corps">
+	<div class="lolo col-lg-8 col-lg-offset-2">
+	
+	<div class="team  col-lg-offset-3">			
+				<img src="inc/img/team.png" class="img-rounded" style="width:70%" />
+			</div>
 		<c:choose>
 			<%-- Si aucune team n'existe en session, affichage d'un message par défaut. --%>
 			<c:when test="${ empty sessionScope.teams }">
@@ -16,7 +21,7 @@
 			<%-- Sinon, affichage du tableau. --%>
 			<c:otherwise>
 
-				
+			<legend>Liste des Teams</legend>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -53,6 +58,6 @@
 			</c:otherwise>
 		</c:choose>
 		</div>
-	
+	</div>
 </body>
 </html>

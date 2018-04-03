@@ -12,6 +12,7 @@
 	</div></c:if> --%>
 	${ form.resultat }
 	
+	
 	<%-- Puis affichage des données enregistrées dans le bean "client" transmis par la servlet --%>
 	<div class="jumbotron">
 	<p>Nom : ${ team.pilote.nom }</p>

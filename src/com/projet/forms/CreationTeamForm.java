@@ -29,11 +29,14 @@ public final class CreationTeamForm {
     
     private static final String FORMAT_DATE            = "dd/MM/yyyy HH:mm:ss";
     
-    public boolean chkErreur;
-
+    private boolean chkErreur;
     private String resultat;
     private Map<String, String> erreurs = new HashMap<String, String>();
 
+    public boolean getchkErreur() {
+    	return chkErreur;
+    }
+    
     public Map<String, String> getErreurs() {
         return erreurs;
     }
@@ -44,7 +47,8 @@ public final class CreationTeamForm {
 
     public Team creerTeam( HttpServletRequest request ) {
     	
-    	
+    System.out.println("je suis dans CreationTeamForm");
+    
         Pilote pilote;
         /*
          * Si l'utilisateur choisit un client déjà existant, pas de validation à

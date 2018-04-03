@@ -25,11 +25,14 @@ public class CreationTeam extends HttpServlet {
     public static final String VUE_FORM          = "/WEB-INF/creerTeam.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
+System.out.println("DoGET CreationTeam"); 
         /* À la réception d'une requête GET, simple affichage du formulaire */
         this.getServletContext().getRequestDispatcher( VUE_FORM ).forward( request, response );
     }
 
     public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
+ System.out.println("DoPost CreationTeam");   	
+    	
         /* Préparation de l'objet formulaire */
         CreationTeamForm form = new CreationTeamForm();
 

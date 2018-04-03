@@ -4,30 +4,10 @@ body {
   background-size: cover; 
     /* background-size: 100% auto;*/
 }
-/* [class*="col-"], footer {
-  background-color: #d7e0fd;
-  border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
-  text-align: center;
-}
- */
 
 h1 {
-	/* text-align :center; */
+	 text-align :center; 
 	color : blue;
-}
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-/* /* Forms --------------------------------------------------------------------------------------- */
-fieldset {
-    padding: 10px;
-    border: 1px #0568CD solid;
-    margin: 10px;
 }
 
 legend {
@@ -35,20 +15,6 @@ legend {
     color: #0568CD;
 }
 
-form label {
-    float: left;
-    width: 200px;
-    margin: 3px 0px 0px 0px;
-}
-
-form input {
-    margin: 3px 3px 0px 0px;
-    border: 1px #999 solid;
-}
-
-form input.sansLabel {
-    margin-left: 200px;
-} */
 
 /* Styles et couleurs -------------------------------------------------------------------------- */
 .requis {
@@ -57,6 +23,7 @@ form input.sansLabel {
 
 .erreur {
     color: #900;
+    font-height :2px;
 }
 
 .succes {
@@ -68,9 +35,11 @@ form input.sansLabel {
     color: #E8A22B;
 }
 .lolo {
-	border : 1px solid gray;
-	background-color: rgba(5, 5, 1, 0.6);
-	color : white;
+	border : 5px inset #406FA4;
+	background-color: rgba(5, 5, 1, 0.6);	
 	padding : 50px;
 
+}
+.helmet {
+	
 }
