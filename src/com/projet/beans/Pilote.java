@@ -2,11 +2,21 @@ package com.projet.beans;
 
 public class Pilote {
 	
+	private int id;
 	private String nom;
 	private String prenom;
 	private String nationalite;
 	
 	
+	
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getNom() {
 		
 		return nom;

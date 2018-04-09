@@ -35,9 +35,9 @@ public class CreationPiloteForm {
     
     public Pilote creerPilote(HttpServletRequest request) {
     	
-    	String nom = request.getParameter(CHAMP_NOM);
-		String prenom = request.getParameter(CHAMP_PRENOM);
-		String nationalite = request.getParameter(CHAMP_NATIONALITE);
+    	String nom 			= request.getParameter(CHAMP_NOM);
+		String prenom 		= request.getParameter(CHAMP_PRENOM);
+		String nationalite 	= request.getParameter(CHAMP_NATIONALITE);
 		
 		
 		 Pilote pilote = new Pilote();

@@ -28,16 +28,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>WebContent/WEB-INF/lib/joda-time-2.4.jar</name>
-			<type>1</type>
-			<location>C:/Users/laurent.lecomte/Downloads/joda-time-2.4-dist/joda-time-2.4/joda-time-2.4.jar</location>
-		</link>
-		<link>
-			<name>WebContent/WEB-INF/lib/jstl-1.2.jar</name>
-			<type>1</type>
-			<location>C:/Users/laurent.lecomte/Downloads/jstl-1.2.jar</location>
-		</link>
-	</linkedResources>
 </projectDescription>
