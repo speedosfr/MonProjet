@@ -64,8 +64,8 @@ System.out.println("Le Pilote n est pas present dans la liste , je peux donc l i
 		List<Pilote> pilotes = new ArrayList<Pilote>();
 
 		Connection connexion = null;
-		Statement statement = null;
-		ResultSet resultat = null;
+		Statement statement  = null;
+		ResultSet resultat   = null;
 
 		try {
 			connexion = daoFactory.getConnection();
@@ -73,10 +73,10 @@ System.out.println("Le Pilote n est pas present dans la liste , je peux donc l i
 			resultat = statement.executeQuery("SELECT id_pilote, nom, prenom , nationalite FROM pilote;");
 
 			while (resultat.next()) {
-				int id = resultat.getInt("id_pilote");
-				String nom = resultat.getString("nom");
-				String prenom = resultat.getString("prenom");
-				String nationalite = resultat.getString("nationalite");
+				int id				= resultat.getInt("id_pilote");
+				String nom			= resultat.getString("nom");
+				String prenom		= resultat.getString("prenom");
+				String nationalite	= resultat.getString("nationalite");
 
 				Pilote pilote = new Pilote();
 				pilote.setId(id);
